@@ -7,13 +7,10 @@ import com.example.mvvmexample.base.BaseViewModel
 import com.example.mvvmexample.model.Post
 import com.example.mvvmexample.model.PostDao
 import com.example.mvvmexample.network.PostApi
-import io.reactivex.Completable
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
-import kotlinx.android.synthetic.main.activity_post_list.view.*
-import java.util.*
 import javax.inject.Inject
 
 class PostListViewModel(private val postDao: PostDao): BaseViewModel(){
