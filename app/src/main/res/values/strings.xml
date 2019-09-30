@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVVMExample</string>
+    <string name="retry">Retry</string>
+    <string name="post_error">Post Error</string>
+</resources>
